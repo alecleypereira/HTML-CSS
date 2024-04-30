@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+}
+.container > img {
+  width: 40em;
+}
+
+#texto{ 
+    text-align: left;
+    width: 600px;
+
+
+}
+#aolado{
+    display: flex;
+}
+#texto2{
+    width: 40em;
+}
+#texto3{
+    width: 600px;
+}
+#titulo1{
+    text-align: center;
+}
+#titulo2{
+    text-align: center;
+}

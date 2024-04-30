@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>imagens flexivel</title>
+</head>
+<body>
+    <h1>imagem flexível</h1>
+    <p>voce esta vendo a imagem completa? experimente ampliar o tamanho da sua janela par melhor experiencia</p>
+    <picture>
+        <source media="(max-width: 735px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1199px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="foto mulher em paisagem/montanha">
+    </picture>
+    <!--foto pequena 265px
+    foto media= 740px
+    foto grande= 1200px-->
+
+    <!--se a tela tevier menos de 735 pixels ela exibe a foto na versão pequena.-->
+
+    <!--se a tela tiver menos de 1299 pixels ela mostra a foto na versão medía.-->
+
+    <!--se a tela for maior  que o utimo source que esta escrito ela exibirar a foto grande.--> 
+</body>
+</html>

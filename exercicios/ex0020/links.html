@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif
+
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bolder;
+            text-align: justify;
+        }
+        a:visited{
+            color:darkblue
+        }
+        a:hover{
+            text-decoration: underline
+            ;
+            color:black;
+        }
+        a:active{
+            color: rgb(241, 241, 122);
+        }
+        .especial::before{
+            content: '→ ';
+        }
+        .especial::after{
+            content: ' ←';
+        }
+        .especial{
+            background-color: #e17efaad;
+            border-radius: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links
+    </h1>
+    <ul>
+       
+        <li><a href="https://github.com/gustavoguanabara/html-css" rel="external" target="_blanck">github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" rel="external" target="_blanck" class="especial">canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" rel="external" target="_blanck" >site curso em video</a></li>
+
+    </ul>
+    
+</body>
+</html>

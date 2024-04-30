@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a</title>
+
+    <style>
+        /*apos terminaar mover styles a umas pasta externa*/
+     @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #743625;
+          
+        }
+        #titulo{
+            font-family: 'Sedan', 'times new roman', serif;
+            font-size: 28px;
+        }
+        .centralizado{
+            
+            text-align: center;
+        }
+        img{
+            border: 3px solid #000000;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo" class="centralizado">biografia de exemplo X</h1>
+    <div class="centralizado" >
+        <picture>
+        <source media="(min-width: 1000px)" srcset="imagens/foto_g.jpg" type="image/jpg" > 
+        <source media="(min-width: 700px)" srcset="imagens/foto_m.jpg" type="image/jpg"> 
+         <img src="imagens/foto_p.jpg" alt="imagem flexivel" >     
+        </picture>
+    </div>
+
+
+</body>
+</html>
