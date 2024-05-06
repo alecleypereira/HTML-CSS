@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position:top center ;
-            background-size: 100%;
+            background-size: cover;
+            background-attachment:fixed;*/
+
+            /*shorthand background
+            color > image > positinon > repeat > [size] > attachment.
+            OBS: size buga a shothand escrev ele a parte.
+            */  
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width:400px;
+            max-width:500px;
             padding:10px;
             margin:auto;
             border:3px solid darkblue;
@@ -26,7 +34,10 @@
 <body>
     <main>
         <h1>teste de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, itaque. Cum placeat quia est sunt et quisquam veniam labore odit officiis, minima quae magni ut fuga, molestiae, quod porro commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut id repellendus eos nisi obcaecati quas mollitia consequuntur ea sunt hic consequatur libero animi atque, magnam quod modi ipsa suscipit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, itaque. Cum placeat quia est sunt et quisquam veniam labore odit officiis, minima quae magni ut fuga, mole lo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente magni nostrum dolorem? Excepturi at quisquam dicta quas dignissimos. Assumenda voluptatibus excepturi velit illum officia fuga adipisci. Minus, assumenda accusamus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia recusandae voluptas quasi neque repellendus, beatae ipsam corrupti deleniti? Dolorem repellat molestias facilis debitis aut sint ex sapiente reiciendis laudantium alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quis, eum rem libero quae dignissimos similique dolore nam sequi. A quos ab excepturi eius fugiat odit, ipsum exercitationem autem officia? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam cupiditate nam aut necessitatibus placeat accusantium harum animi sint voluptates libero. Illum veniam ipsa, nam est fugit velit commodi labore nesciunt! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde distinctio quibusdam corporis et magni eum dolorum sapiente fugiat, blanditiis officia necessitatibus incidunt sequi maxime assumenda iure est harum iste molestiae!stiae, quod porro commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut id repellendus eos nisi obcaecati quas mollitia consequuntur ea sunt hic consequatur libero animi atque, magnam quod modi ipsa suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum maxime a
+        </p>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quisquam odit laboriosam tempore ab ratione non voluptate animi soluta neque, optio consequuntur delectus eius voluptates excepturi nemo impedit aliquid perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam recusandae aut adipisci, architecto autem hic nesciunt, exercitationem totam voluptatum debitis a quae praesentium accusamus tenetur, veniam vero asperiores culpa aperiam?</p>
+        <p>loor lro rlor lor Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur earum dolorum accusamus consequatur in esse voluptate doloribus atque numquam odio, iste harum nostrum voluptatibus ratione debitis maxime quos ex repellat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quia assumenda veritatis architecto tempora error non nam. Placeat, magnam corrupti debitis illum praesentium voluptatum adipisci nulla quis tenetur facilis aspernatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam pariatur sunt placeat suscipit voluptatum veniam laboriosam, ratione explicabo consequuntur illum a porro sint cum expedita tenetur animi quas ad laborum.</p>
     </main>
 </body>
 </html>
