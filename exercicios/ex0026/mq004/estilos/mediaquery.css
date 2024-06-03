@@ -1,7 +1,73 @@
 @charset "UTF-8";
 
-/*Todas as demais medias*/
+/* Todas as demais medias
+----------------------------
+ Typicau Device Breakpoints
+----------------------------
+Telas Pequenas: áte 600px
+----------------------------
+Celular: de 600px áte 768px
+----------------------------
+Tablet: de 768px áte 992px
+----------------------------
+desktop: de 992px áte 1200px
+----------------------------
+TV: acima de 1200px
+----------------------------
+*/
  
-@media screen {
-    
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../imagens/back-print.jpg); /*Desnecessario*/
+        }
+    main{
+            border: 2px solid black;
+        }
+    main h1{
+        text-shadow: none;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main::after{
+        content: "Essa impressão foi feita criada tirada do site www.cursoemvideo.com";
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {/*TABLET*/
+
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #fone{ display: none; }
+    #tablet{ display: block; }
+    #print{ display: none; }
+    #pc{ display: none; }
+    #tv{ display: none; }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {/*DESCKTOP*/
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+        
+    }
+    #fone{ display: none; }
+    #tablet{ display: none; }
+    #print{ display: none; }
+    #pc{ display: block; }
+    #tv{ display: none; }
+}
+
+@media screen and (min-width:1200px) {/*GRANDES TELAS*/
+body{
+    background-image: url(../imagens/back-tv.jpg);
+}
+    #fone{ display: none; }
+    #tablet{ display: none; }
+    #print{ display: none; }
+    #pc{ display: none; }
+    #tv{ display: block; }
+
 }
