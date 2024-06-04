@@ -14,7 +14,6 @@ header{
 }
 header > h1{
     text-align: center;
-    display: block;
 }
 span#burguer{
     background-color: #363636;
