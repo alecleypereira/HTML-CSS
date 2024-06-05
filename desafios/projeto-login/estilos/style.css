@@ -15,8 +15,11 @@ TV: acima de 1200px
 ----------------------------
 */
 /*  Cores:
-    verde: #49a09d
-    lilais: #5f2c82
+    verde: #49a09d;
+    lilais: #5f2c82;
 
 */
-
+var{
+    --cor1:#49a09d;
+    --cor2:#5f2c82;
+}
