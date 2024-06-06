@@ -90,7 +90,8 @@ span#senha{
     font-size: 30px;
 }
 .inputs-entrada{
-    
+    width: 170px;
+    height: 15px;
     background-color:#80dfdb;
     color: white;
     border-radius: 10px;
