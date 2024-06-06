@@ -107,6 +107,9 @@ span#senha{
     border: none;
     margin-bottom: 5px;
 }
+#entrar:hover{
+    background-color: #408b89;
+}
 #esqu-senha{
     
     width: 240px;
@@ -114,4 +117,8 @@ span#senha{
     border-radius: 10px;
     border: 1px solid var(--cor1);
     
+}
+#esqu-senha:hover{
+    background-color: var(--cor1);
+    color: white;
 }
