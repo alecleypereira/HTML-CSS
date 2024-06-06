@@ -43,20 +43,20 @@ body{
 }
 #imagem img{
     margin: auto;
-    height: 40vh;
-    width: 50vw;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
+    height: 200px;
+    width: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
      display:block;
 }
 
 #formulario{
-    height: 50vh;
-    width: 50vw;
+    height: 300px;
+    width: 250px;
     margin: auto;
     background-color:white;
-    border-bottom-left-radius:35px ;
-    border-bottom-right-radius:35px ;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius:25px ;
 }
 #formulario h1{
     text-align: center;
