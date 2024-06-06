@@ -62,7 +62,8 @@ body{
     text-align: center;
 }
 #formulario p{
-    line-height: 20px;
+    font-size: 0.8em;
+    line-height: 15px;
     padding:5px 10px 0px 10px;
     margin-bottom: 10px;
     
@@ -70,5 +71,44 @@ body{
 form{
     text-align: center;
    
+    
+}
+.inputs{
+    margin: 0px 5px 10px 5px;
+  
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+span#email{
+    
+    color: white;
+    font-size: 30px;
+}
+span#senha{
+    color: white;
+    font-size: 30px;
+}
+.inputs-entrada{
+    
+    background-color:#80dfdb;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+#entrar{
+    color: white;
+    background-color: #49a09d;
+    width: 240px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 5px;
+}
+#esqu-senha{
+    
+    width: 240px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid var(--cor1);
     
 }
