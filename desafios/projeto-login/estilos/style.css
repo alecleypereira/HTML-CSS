@@ -35,7 +35,7 @@ html,body{
 
 body{
     background-color: var(--cor2);
-
+    height: 100vh;
 }
 main{
     position: relative;
