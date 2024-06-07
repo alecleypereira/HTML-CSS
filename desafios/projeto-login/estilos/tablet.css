@@ -1,2 +1,104 @@
 @charset "UTF-8";
 
+
+
+:root{
+    --cor1:#49a09d;
+    --cor2:#5f2c82;
+}
+body{
+    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    background-repeat: no-repeat;
+}
+main{
+    position: relative;
+    margin: auto;
+    height: 100vh;
+}
+main section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     display:flex;
+     
+    
+    
+}
+div#imagem{
+  margin: 0px;
+
+}
+#imagem img{
+
+     border-radius: 25px 0px 0px 25px; 
+     height: 295px;
+}
+div#formulario{
+    margin: 0px;
+    border-radius: 0px 25px 25px 0px;
+    width:500px ;
+    height: 295px;
+
+}
+#formulario p{
+    font-size: 0.9em;
+}
+#formulario h1{
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.inputs{
+    margin: 0px auto 10px auto;
+    width: 490px;
+    height: 45px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+span#email{
+    
+    color: white;
+    font-size: 30px;
+}
+span#senha{
+    color: white;
+    font-size: 30px;
+}
+.inputs-entrada{
+    width: 420px;
+    height: 15px;
+    background-color:#80dfdb;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+#entrar{
+    color: white;
+    background-color: #49a09d;
+    width: 490px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 5px;
+}
+#entrar:hover{
+    background-color: #408b89;
+}
+#esqu-senha{
+    
+    width: 490px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid var(--cor1);
+    
+}
+#esqu-senha:hover{
+    background-color: var(--cor1);
+    color: white;
+}
+
+
