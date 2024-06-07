@@ -30,10 +30,10 @@ div#imagem{
   margin: 0px;
 
 }
-#imagem img{
-
-     border-radius: 25px 0px 0px 25px; 
-     height: 295px;
+#imagem {
+height: 295px;
+     
+    
 }
 div#formulario{
     margin: 0px;
