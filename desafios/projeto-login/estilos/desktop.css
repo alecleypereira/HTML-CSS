@@ -1,2 +1,56 @@
 @charset "UTF-8";
 
+:root{
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+}
+
+main section{
+    display: flex;
+}
+section#login {
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#imagem {
+    order: 2;
+
+    height: 340px;
+    width: 400px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#formulario {
+    order: 1;
+    height: 340px;
+    width: 500px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#formulario h1{
+    font-size: 2em;
+}
+#formulario p{
+    font-size: 1em;
+}
+.inputs{
+    height: 50px;
+    width: 480px;
+}
+.inputs-entrada{
+    height: 25px;
+    width: 400px;
+}
+#entrar{
+height: 50px;
+width: 480px;
+font-size: 1em;
+}
+#esqu-senha{
+height: 50px;
+width: 480px;
+font-size: 1em;
+font-weight: 300;
+}
